@@ -48,5 +48,3 @@ Dieses Projekt steht unter der [MIT-Lizenz](LICENSE) – frei zur Nutzung, Bearb
 
 Erstellt mit Liebe, Licht und ein bisschen interstellarer Magie ✨  
 Design by [Marcus](#)
-
-```
