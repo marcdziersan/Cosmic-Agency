@@ -50,9 +50,3 @@ Erstellt mit Liebe, Licht und ein bisschen interstellarer Magie ✨
 Design by [Marcus](#)
 
 ```
-
----
-
-💡 **Tipp:** Du kannst die Vorschau-Sektion später mit Screenshots, Demos oder Deploy-Links erweitern – oder ich generiere dir ein passendes Vorschau-Bild!
-
-Bereit für den Lift-off auf GitHub? Ich helfe dir auch gern mit dem Deployment oder dem passenden Repository-Tagline! 🚀🛰️
