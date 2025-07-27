@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmic Agency Dreamscape</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hamburger" onclick="toggleMenu()">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+  <header id="hero">
+    <h1>Cosmic Agency</h1>
+    <p>Stell dir vor, du träumst — und wir bauen daraus eine Welt.</p>
+    <button onclick="scrollToSection()">Starte deine Reise</button>
+  </header>
+
+  <nav id="main-nav">
+    <ul>
+      <li><a href="#hero">Start</a></li>
+      <li><a href="#journey">Story</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <section id="journey">
+    <h2>Von Sternenstaub zu Visionen</h2>
+    <p>
+      In einer Ära digitaler Überflutung glauben wir daran, dass Ideen mehr brauchen als nur Pixel. Sie brauchen Energie. Seele. Eine Reise.
+      Cosmic Agency ist aus dem Wunsch geboren, Visionen greifbar zu machen — durch Design, das nicht nur leuchtet, sondern leitet.
+    </p>
+    <button onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})">Unsere Mission</button>
+  </section>
+
+  <section id="services">
+    <h2>Was wir erschaffen</h2>
+    <ul>
+      <li><strong>🚀 Visionäre Websites:</strong> immersive Interfaces, die Geschichten erzählen</li>
+      <li><strong>🧬 Marken-Designs:</strong> Identitäten mit Gravitation</li>
+      <li><strong>🔮 Experience Building:</strong> magische User Journeys in digitalen Traumlandschaften</li>
+    </ul>
+    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Projekt starten</button>
+  </section>
+
+  <section id="manifesto">
+    <h2>Unser Manifest</h2>
+    <p>
+      Wir sind Träumer*innen, Architekt*innen und Sternenreisende. Jedes Projekt beginnt mit einem Puls aus Neugier und endet in einer Galaxy aus Ausdruck.
+      Wenn du uns kontaktierst, trittst du durch ein Portal — bereit, mit uns etwas zu erschaffen, das über das Sichtbare hinausgeht.
+    </p>
+  </section>
+
+  <section id="team">
+    <h2>Team der Sternenträger</h2>
+    <div class="team-grid">
+      <div class="member">
+        <img src="https://via.placeholder.com/120x120" alt="Astral Alex">
+        <h3>Astral Alex</h3>
+        <p>Creative Navigator</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/120x120" alt="Nebula Nina">
+        <h3>Nebula Nina</h3>
+        <p>Design Magierin</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/120x120" alt="Quantum Quentin">
+        <h3>Quantum Quentin</h3>
+        <p>Tech Alchemist</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Deine Anfrage ist der erste Stern</h2>
+    <p>Bereit, gemeinsam deine Traumwelt zu starten? Teile uns deine Idee mit, und wir schicken sie auf Reise.</p>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Was möchtest du erschaffen?" required></textarea>
+      <button type="submit">Kontakt aufnehmen</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cosmic Agency • Visionen jenseits des Horizonts</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
